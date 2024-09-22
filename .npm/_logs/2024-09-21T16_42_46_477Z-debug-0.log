@@ -1,0 +1,31 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.3
+2 info using node@v21.7.3
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-09-21T16_42_46_477Z-
+9 verbose logfile /home/container/.npm/_logs/2024-09-21T16_42_46_477Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify moves {}
+14 silly audit bulk request {
+14 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+14 silly audit   dotenv: [ '16.4.5' ],
+14 silly audit   'fetch-blob': [ '3.2.0' ],
+14 silly audit   'formdata-polyfill': [ '4.0.10' ],
+14 silly audit   'node-domexception': [ '1.0.0' ],
+14 silly audit   'node-fetch': [ '3.3.2' ],
+14 silly audit   'web-streams-polyfill': [ '3.3.3' ]
+14 silly audit }
+15 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 275ms
+16 silly audit report {}
+17 verbose cwd /home/container
+18 verbose os Linux 5.14.0-427.31.1.el9_4.x86_64
+19 verbose node v21.7.3
+20 verbose npm  v10.8.3
+21 verbose exit 0
+22 info ok
